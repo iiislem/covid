@@ -46,7 +46,7 @@ to predict future cases, deaths, and recoveries for selected countries with high
 def load_population_data():
     try:
         # Replace with your actual file path
-        population_df = pd.read_csv("/Users/islem/Desktop/covid 19/world_population.csv")
+        population_df = pd.read_csv("world_population.csv")
         # Ensure correct column names
         if 'Country/Territory' in population_df.columns and '2020 Population' in population_df.columns:
             # Create a dictionary for easy lookup
@@ -64,7 +64,7 @@ def load_population_data():
 def load_covid_data():
     try:
         # Use the path provided in your code
-        df = pd.read_csv("/Users/islem/Desktop/covid 19/covid_19_clean_complete.csv")
+        df = pd.read_csv("covid_19_clean_complete.csv")
         
         # Data preprocessing
         df['Date'] = pd.to_datetime(df['Date'])
