@@ -57,3 +57,22 @@ Open **Command Prompt (CMD)** or **Terminal** in the project directory and run:
 
 ```bash
 pip install -r requirements.txt
+```
+### 3. Start the Streamlit app
+
+- Still inside the project folder, run:
+
+```bash
+streamlit run app.py
+```
+
+### 4. View the app in your browser
+
+- After running, Streamlit should automatically open a tab in your browser.
+- If not, manually open your browser and go to:
+
+    http://localhost:8501/
+
+## You can test it directly from this link:
+
+https://covidpredection.streamlit.app/
