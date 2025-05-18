@@ -1,7 +1,6 @@
 # 🦠 COVID-19 Prediction App
 # COVID-19 Analysis and Prediction Dashboard
 
-![Dashboard Screenshot](screenshot.png) <!-- Add a screenshot if available -->
 
 An advanced dashboard for analyzing COVID-19 data and making predictions using a hybrid approach combining epidemiological modeling (SIR) with deep learning (LSTM).
 
